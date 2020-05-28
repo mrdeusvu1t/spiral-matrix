@@ -1,7 +1,6 @@
 using System;
 using NUnit.Framework;
 using SpiralMatrixTask;
-using static SpiralMatrixTask.MatrixExtension;
 
 namespace SpiralMatrix.Tests
 {
