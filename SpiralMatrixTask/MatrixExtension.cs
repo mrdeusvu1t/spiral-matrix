@@ -8,12 +8,11 @@ namespace SpiralMatrixTask
     public static class MatrixExtension
     {
         /// <summary>
-        /// Method fills the matrix with natural numbers, starting from 1 in the top-left corner,
-        /// increasing in an inward, clockwise spiral order.
+        /// Fills the matrix with natural numbers, starting from 1 in the top-left corner, increasing in an inward, clockwise spiral order.
         /// </summary>
-        /// <param name="size">Matrix order.</param>
+        /// <param name="size">Matrix size.</param>
         /// <returns>Filled matrix.</returns>
-        /// <exception cref="ArgumentException">Throw ArgumentException when matrix size less or equal zero.</exception>
+        /// <exception cref="ArgumentException">Thrown when matrix size less or equal zero.</exception>
         /// <example> size = 3
         ///     1 2 3
         ///     8 9 4
@@ -27,7 +26,7 @@ namespace SpiralMatrixTask
         /// </example>
         public static int[,] GetMatrix(int size)
         {
-            throw new NotImplementedException("You need to implement this function.");
+            throw new NotImplementedException("You need to implement this method.");
         }
     }
 }
