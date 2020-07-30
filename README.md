@@ -1,7 +1,6 @@
 ## Task description ##
 
-Implement an algorithm for filling a square matrix of order size with spiral elements.  
-The matrix must be filled with natural numbers from 1 to size in increments of 1, starting from the upper left corner and twisting its elements in a clockwise spiral direction, as shown in the following example:
+Implement an [GetMatrix](SpiralMatrixTask/MatrixExtension.cs#L28) for filling a square matrix of order `size` with spiral elements. The matrix must be filled with natural numbers from `1` to `size` in increments of `1`, starting from the upper left corner and twisting its elements in a clockwise spiral direction, as shown in the following example:
 
         Spiral matrix - size = 3
 
@@ -14,6 +13,8 @@ The matrix must be filled with natural numbers from 1 to size in increments of 1
          1  2  3  4   
          12 13 14 5  
          11 16 15 6  
-         10 9  8  7  
+         10 9  8  7    
+
+*The task definitions are given in the XML-comments for this methods.*
 
 *Topics - 2-dimensional arrays.* 
