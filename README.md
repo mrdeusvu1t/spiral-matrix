@@ -15,6 +15,7 @@ Implement an [GetMatrix](SpiralMatrixTask/MatrixExtension.cs#L28) method for fil
          11 16 15 6  
          10 9  8  7    
 
-*The task definitions are given in the XML-comments for this methods.*
+The task definitions are given in the XML-comments for this methods.   
+_Restriction: use only the capabilities of the C# language._
 
 *Topics - 2-dimensional arrays.* 
