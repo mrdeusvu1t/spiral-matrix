@@ -1,6 +1,7 @@
 using System;
 
 #pragma warning disable CA1814
+#pragma warning disable S2368
 
 namespace SpiralMatrixTask
 {
